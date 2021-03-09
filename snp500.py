@@ -14,8 +14,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.ensemble import VotingClassifier, RandomForestClassifier
 import statistics
 
-
-
+# read the wikipedia data from website and save the stock tickers of snp500 companies
 def save_sp500_tickers():
     resp = requests.get('https://en.wikipedia.org/wiki/List_of_S%26P_500_companies')
 
